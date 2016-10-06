@@ -14,7 +14,7 @@ require 'mina/rbenv'  # for rbenv support. (http://rbenv.org)
 #   branch       - Branch name to deploy. (needed by mina/git)
 
 set :domain, '194.67.208.144'
-set :deploy_to, 'apps/test_app'
+set :deploy_to, '/home/deployer/apps/test_app'
 set :repository, 'git@github.com:SergejOvsiannikov/test_repo.git'
 set :branch, 'new-branch'
 set :user, 'deployer'

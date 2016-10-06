@@ -35,7 +35,7 @@ group :development, :test do
 end
 
 group :tools do
-  gem 'mina', '1.0.0'
+  gem 'mina', '0.3.8'
   gem 'mina-unicorn'
   # gem 'mina-nginx'
 end
